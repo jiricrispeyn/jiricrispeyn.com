@@ -1,0 +1,50 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import InstagramIcon from 'mdi-react/InstagramIcon';
+import TwitterIcon from 'mdi-react/TwitterIcon';
+import LinkedInIcon from 'mdi-react/LinkedInIcon';
+import GithubCircleIcon from 'mdi-react/GithubCircleIcon';
+import { StyledSocial, StyledIcon } from './style';
+
+const Social = props => {
+  return (
+    <StyledSocial>
+      <StyledIcon
+        href="https://twitter.com/jiricrispeyn"
+        target="blank"
+        rel="noopener noreferrer"
+        brandColor="#1DA1F2"
+      >
+        <TwitterIcon />
+      </StyledIcon>
+      <StyledIcon
+        href="https://instagram.com/jiricrispeyn"
+        target="blank"
+        rel="noopener noreferrer"
+        brandColor=""
+      >
+        <InstagramIcon />
+      </StyledIcon>
+      <StyledIcon
+        href="https://linkedin.com/in/jiricrispeyn"
+        target="blank"
+        rel="noopener noreferrer"
+        brandColor=""
+      >
+        <LinkedInIcon />
+      </StyledIcon>
+      <StyledIcon
+        href="https://github.com/jiricrispeyn"
+        target="blank"
+        rel="noopener noreferrer"
+        brandColor=""
+      >
+        <GithubCircleIcon />
+      </StyledIcon>
+    </StyledSocial>
+  );
+};
+
+Social.propTypes = {};
+
+export default Social;
