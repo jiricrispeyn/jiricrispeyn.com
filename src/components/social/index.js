@@ -31,7 +31,7 @@ const Social = props => {
         rel="noopener noreferrer"
         brandColor=""
       >
-        <LinkedInIcon />
+        <LinkedinIcon />
       </StyledIcon>
       <StyledIcon
         href="https://github.com/jiricrispeyn"
