@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import InstagramIcon from 'mdi-react/InstagramIcon';
 import TwitterIcon from 'mdi-react/TwitterIcon';
-import LinkedInIcon from 'mdi-react/LinkedInIcon';
+import LinkedinIcon from 'mdi-react/LinkedinIcon';
 import GithubCircleIcon from 'mdi-react/GithubCircleIcon';
 import { StyledSocial, StyledIcon } from './style';
 
