@@ -7,13 +7,15 @@ const Hero = () => {
     <StyledHero>
       <h1>Hi! I'm Jiri Crispeyn — a Front End Engineer based in Belgium</h1>
       <p>
-        Lorem ipsum dolor sit amet, sea possit facilisi neglegentur at. Esse
-        quot veniam sed id. Ius ea sumo dicam, cu vix habemus fierent tacimates,
-        ex homero forensibus accommodare has. An omnis lorem duo, eu tollit
-        conclusionemque nec, viderer lobortis duo ad. Per an case integre, id
-        per posse soluta diceret. Idque argumentum scripserit has ex, vide
-        graecis has in.
+        I currently work at <a href="//sentiance.com">Sentiance</a> where I
+        visualize people’s behavior and real-time context using Javascript. I
+        also contribute to open source projects on{' '}
+        <a href="//github.com/jiricrispeyn">Github</a>. I share my (own)
+        opininions on <a href="//twitter.com/jiricrispeyn">Twitter</a>. You can
+        find my work history on{' '}
+        <a href="//linkedin.com/in/jiricrispeyn">LinkedIn</a>.
       </p>
+      <p>Get in touch at jiri.crispeyn[at]gmail[dot]com.</p>
       <Social />
     </StyledHero>
   );
