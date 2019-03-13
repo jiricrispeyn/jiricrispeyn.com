@@ -15,7 +15,7 @@ const Social = props => {
         rel="noopener noreferrer"
         brandColor="#1DA1F2"
       >
-        <TwitterIcon />
+        <TwitterIcon size={20} />
       </StyledIcon>
       <StyledIcon
         href="https://instagram.com/jiricrispeyn"
@@ -23,7 +23,7 @@ const Social = props => {
         rel="noopener noreferrer"
         brandColor=""
       >
-        <InstagramIcon />
+        <InstagramIcon size={20} />
       </StyledIcon>
       <StyledIcon
         href="https://linkedin.com/in/jiricrispeyn"
@@ -31,7 +31,7 @@ const Social = props => {
         rel="noopener noreferrer"
         brandColor=""
       >
-        <LinkedinIcon />
+        <LinkedinIcon size={20} />
       </StyledIcon>
       <StyledIcon
         href="https://github.com/jiricrispeyn"
@@ -39,7 +39,7 @@ const Social = props => {
         rel="noopener noreferrer"
         brandColor=""
       >
-        <GithubCircleIcon />
+        <GithubCircleIcon size={20} />
       </StyledIcon>
     </StyledSocial>
   );

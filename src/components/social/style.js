@@ -9,8 +9,5 @@ export const StyledIcon = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 3.125rem;
-  height: 3.125rem;
-  border-radius: 50%;
   color: ${colors.black};
 `;
