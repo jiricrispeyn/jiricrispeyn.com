@@ -42,5 +42,11 @@ module.exports = {
         fonts: ['material icons', 'montserrat:700', 'source sans pro:300'],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GA_TRACKING_ID,
+      },
+    },
   ],
 };
