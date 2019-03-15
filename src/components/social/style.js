@@ -10,4 +10,9 @@ export const StyledIcon = styled.a`
   justify-content: center;
   align-items: center;
   color: ${colors.black};
+  margin-left: 6px;
+
+  &:first-child {
+    margin-left: 0;
+  }
 `;
