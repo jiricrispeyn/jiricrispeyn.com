@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyledHero } from './style';
 import Social from '../social';
+import { Anchor } from '../typography';
 
 const Hero = () => {
   return (
@@ -8,34 +9,34 @@ const Hero = () => {
       <h1>Hi! I'm Jiri Crispeyn — a Front End Engineer based in Belgium</h1>
       <p>
         I currently work at{' '}
-        <a href="//sentiance.com" target="blank" rel="noopener noreferrer">
+        <Anchor href="//sentiance.com" target="blank" rel="noopener noreferrer">
           Sentiance
-        </a>{' '}
+        </Anchor>{' '}
         where I visualize people’s behavior and real-time context using
         Javascript. I also contribute to open source projects on{' '}
-        <a
+        <Anchor
           href="//github.com/jiricrispeyn"
           target="blank"
           rel="noopener noreferrer"
         >
           Github
-        </a>
+        </Anchor>
         . I share my (own) opininions on{' '}
-        <a
+        <Anchor
           href="//twitter.com/jiricrispeyn"
           target="blank"
           rel="noopener noreferrer"
         >
           Twitter
-        </a>
+        </Anchor>
         . You can find my work history on{' '}
-        <a
+        <Anchor
           href="//linkedin.com/in/jiricrispeyn"
           target="blank"
           rel="noopener noreferrer"
         >
           LinkedIn
-        </a>
+        </Anchor>
         .
       </p>
       <p>Get in touch at jiri.crispeyn[at]gmail[dot]com.</p>
