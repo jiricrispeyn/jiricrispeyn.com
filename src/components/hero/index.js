@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledHero } from './style';
+import { StyledHero, AnchorButton } from './style';
 import Social from '../social';
 import { Anchor } from '../typography';
 
@@ -39,8 +39,10 @@ const Hero = () => {
         </Anchor>
         .
       </p>
-      <p>Get in touch at jiri.crispeyn[at]gmail[dot]com.</p>
-      <Social />
+      <address style={{ fontStyle: 'normal' }}>
+        Get in touch at{' '}
+        <AnchorButton>jiri.crispeyn[at]gmail[dot]com</AnchorButton>.
+      </address>
     </StyledHero>
   );
 };

@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { Anchor } from '../typography';
 
 export const StyledHero = styled.section`
   display: flex;
@@ -7,5 +8,6 @@ export const StyledHero = styled.section`
   align-items: flex-start;
   height: calc(100vh - 6.625rem);
   max-width: 40rem;
-  /* padding-bottom: 10rem; */
 `;
+
+export const AnchorButton = Anchor.withComponent('span');
