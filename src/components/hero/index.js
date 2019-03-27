@@ -13,7 +13,7 @@ const Hero = () => {
           Sentiance
         </Anchor>{' '}
         where I visualize people’s behavior and real-time context using
-        Javascript. I also contribute to open source projects on{' '}
+        Javascript. I contribute to open source projects on{' '}
         <Anchor
           href="//github.com/jiricrispeyn"
           target="blank"
@@ -21,7 +21,7 @@ const Hero = () => {
         >
           Github
         </Anchor>
-        . I share my (own) opininions on{' '}
+        . I share my own <code>{`<View />`}</code>s on{' '}
         <Anchor
           href="//twitter.com/jiricrispeyn"
           target="blank"
