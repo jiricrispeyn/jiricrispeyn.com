@@ -18,8 +18,6 @@ const SmoothCorners = ({ size, color }) => (
     viewBox="0 0 80 80"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <title>App Icon</title>
-    <desc>Created with Sketch.</desc>
     <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
       <g
         transform="translate(-120.000000, -20.000000)"
@@ -35,8 +33,8 @@ const SmoothCorners = ({ size, color }) => (
 const Logo = props => {
   return (
     <StyledLogo>
-      <SmoothCorners size={40} color="#fad050" />
-      <div style={{ position: 'absolute' }}>J</div>
+      <SmoothCorners size={40} color="#5438DC" />
+      <div style={{ position: 'absolute', color: '#fff' }}>J</div>
     </StyledLogo>
   );
 };
