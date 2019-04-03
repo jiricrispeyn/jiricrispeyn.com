@@ -1,11 +1,9 @@
 import React from 'react';
-import { StyledHero, AnchorButton } from './style';
+import { StyledHero } from './style';
 import { Anchor } from '../typography';
 import useHover from '../../hooks/useHover';
 
 const Hero = () => {
-  const [isHovered, bind] = useHover();
-
   return (
     <StyledHero>
       <h1>Hi! I'm Jiri Crispeyn — a Front End Engineer based in Belgium</h1>
@@ -43,7 +41,13 @@ const Hero = () => {
       </p>
       <address style={{ fontStyle: 'normal' }}>
         Get in touch at{' '}
-        <AnchorButton {...bind}>jiri.crispeyn[at]gmail[dot]com</AnchorButton>.
+        <Anchor
+          href="mailto:jiri.crispeyn@gmail.com"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          jiri.crispeyn[at]gmail[dot]com
+        </Anchor>
       </address>
     </StyledHero>
   );
