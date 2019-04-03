@@ -9,7 +9,12 @@ const Hero = () => {
       <h1>Hi! I'm Jiri Crispeyn — a Front End Engineer based in Belgium</h1>
       <p>
         I currently work at{' '}
-        <Anchor href="//sentiance.com" target="blank" rel="noopener noreferrer">
+        <Anchor
+          href="//sentiance.com"
+          target="blank"
+          rel="noopener noreferrer"
+          activeColor="#ff3d49"
+        >
           Sentiance
         </Anchor>{' '}
         where I visualize people’s behavior and real-time context using
@@ -18,6 +23,7 @@ const Hero = () => {
           href="//github.com/jiricrispeyn"
           target="blank"
           rel="noopener noreferrer"
+          activeColor="#333"
         >
           Github
         </Anchor>
@@ -26,6 +32,7 @@ const Hero = () => {
           href="//twitter.com/jiricrispeyn"
           target="blank"
           rel="noopener noreferrer"
+          activeColor="#38a1f3"
         >
           Twitter
         </Anchor>
@@ -34,6 +41,7 @@ const Hero = () => {
           href="//linkedin.com/in/jiricrispeyn"
           target="blank"
           rel="noopener noreferrer"
+          activeColor="#0077b5"
         >
           LinkedIn
         </Anchor>
