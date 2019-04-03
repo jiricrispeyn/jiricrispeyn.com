@@ -33,7 +33,7 @@ const SmoothCorners = ({ size, color }) => (
 const Logo = props => {
   return (
     <StyledLogo>
-      <SmoothCorners size={40} color="#5438DC" />
+      <SmoothCorners size={40} color={colors.purpleHeart} />
       <div style={{ position: 'absolute', color: '#fff' }}>J</div>
     </StyledLogo>
   );
