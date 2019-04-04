@@ -6,7 +6,7 @@ export const StyledHero = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: calc(100vh - 6.625rem);
+  min-height: calc(100vh - 6.625rem);
   max-width: 40rem;
 `;
 
