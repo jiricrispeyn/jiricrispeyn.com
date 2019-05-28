@@ -15,7 +15,7 @@ export const Anchor = styled.a`
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: ${colors.black};
+    background-color: ${rgba('#000', 0.12)};
     transition: all 0.1s cubic-bezier(0.17, 0.67, 0.83, 0.67);
     z-index: -10;
   }
