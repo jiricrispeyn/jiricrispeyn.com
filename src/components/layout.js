@@ -6,6 +6,9 @@ import Header from './header';
 import Container from './container';
 import './layout.css';
 
+import { Anchor } from '../components/typography';
+import Footer from '../components/footer';
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -22,11 +25,27 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Container>
           <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
+          <Footer>
+            © {new Date().getFullYear()}, Built with{` `}
+            <Anchor
+              href="https://www.gatsbyjs.org"
+              target="blank"
+              rel="noopener noreferrer"
+              activeColor="rgb(102, 51, 153)"
+            >
+              Gatsby
+            </Anchor>
+            {`, `}
+            <Anchor
+              href="https://emotion.sh"
+              target="blank"
+              rel="noopener noreferrer"
+              activeColor="#D36AC2"
+            >
+              Emotion
+            </Anchor>
+            {`, 💻 and ☕`}
+          </Footer>
         </Container>
       </>
     )}
