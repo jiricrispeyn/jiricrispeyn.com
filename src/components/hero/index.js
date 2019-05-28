@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyledHero } from './style';
 import { Anchor } from '../typography';
-import useHover from '../../hooks/useHover';
 
 const Hero = () => {
   return (
@@ -27,7 +26,7 @@ const Hero = () => {
         >
           Github
         </Anchor>
-        . I share my own <code>{`<View />`}</code>s on{' '}
+        . I share my own <code style={{ fontSize: 14 }}>{`<View />`}</code>s on{' '}
         <Anchor
           href="//twitter.com/jiricrispeyn"
           target="blank"
