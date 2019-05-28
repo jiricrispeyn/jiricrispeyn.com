@@ -7,7 +7,16 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Home"
-      keywords={[`jiri`, `crispeyn`, `front`, `end`, `engineer`, `belgium`]}
+      keywords={[
+        `jiri`,
+        `crispeyn`,
+        `front end`,
+        `engineer`,
+        `belgium`,
+        `javascript`,
+        `es6`,
+        `react`,
+      ]}
     />
     <Hero />
   </Layout>
