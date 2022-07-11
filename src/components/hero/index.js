@@ -7,14 +7,14 @@ const Hero = () => {
     <StyledHero>
       <h1>Hi! I'm Jiri Crispeyn — a Software Engineer based in Belgium</h1>
       <p>
-        Mobile Engineering Lead{" "}
+        Staff Software Engineer{" "}
         <Anchor
-          href="//aaqua.live"
+          href="//shopify.engineering"
           target="blank"
           rel="noopener noreferrer"
-          activeColor="#01091b"
+          activeColor="#008060"
         >
-          @aaqua
+          @shopify
         </Anchor>{" "}
         , where I'm working on building a scalable core mobile infrastructure
         with{" "}
@@ -28,13 +28,21 @@ const Hero = () => {
         </Anchor>
         . Previously{" "}
         <Anchor
+          href="//aaqua.live"
+          target="blank"
+          rel="noopener noreferrer"
+          activeColor="#01091b"
+        >
+          @aaqua
+        </Anchor>,{" "}
+        <Anchor
           href="//sentiance.com"
           target="blank"
           rel="noopener noreferrer"
           activeColor="#ff3d49"
         >
           @sentiance
-        </Anchor>{" "}
+        </Anchor>,{" "}
         and{" "}
         <Anchor
           href="//nascom.be"
