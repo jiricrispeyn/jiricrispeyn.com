@@ -8,7 +8,7 @@
     "@emotion/core": "10.0.7",
     "@emotion/styled": "10.0.7",
     "clipboard": "2.0.4",
-    "gatsby": "^2.0.119",
+    "gatsby": "^5.12.6",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-emotion": "4.0.3",
     "gatsby-plugin-google-analytics": "2.0.17",
