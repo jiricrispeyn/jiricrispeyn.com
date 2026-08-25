@@ -15,9 +15,9 @@ const Hero = () => {
           activeColor="#008060"
         >
           @shopify
-        </Anchor>{" "}
-        , where I'm working on building a scalable core mobile infrastructure
-        with{" "}
+        </Anchor>
+        , where I work on Point of Sale, the mobile app that helps retail
+        merchants make commerce better, built with{" "}
         <Anchor
           href="//reactnative.dev/"
           target="blank"
@@ -28,7 +28,7 @@ const Hero = () => {
         </Anchor>
         . Previously{" "}
         <Anchor
-          href="//aaqua.live"
+          href="//rocketreach.co/aaqua-profile_b42ae115fe01bccd"
           target="blank"
           rel="noopener noreferrer"
           activeColor="#01091b"
@@ -63,12 +63,12 @@ const Hero = () => {
         </Anchor>
         . I share my own <code style={{ fontSize: 14 }}>{`<View />`}</code>s on{" "}
         <Anchor
-          href="//twitter.com/jiricrispeyn"
+          href="//x.com/jiricrispeyn"
           target="blank"
           rel="noopener noreferrer"
-          activeColor="#38a1f3"
+          activeColor="#000000"
         >
-          Twitter
+          X
         </Anchor>
         . You can find my work history on{" "}
         <Anchor

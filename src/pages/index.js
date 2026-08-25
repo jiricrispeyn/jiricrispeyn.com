@@ -10,12 +10,12 @@ const IndexPage = () => (
       keywords={[
         `jiri`,
         `crispeyn`,
-        `front end`,
+        `staff software engineer`,
         `engineer`,
         `belgium`,
         `javascript`,
-        `es6`,
-        `react`,
+        `typescript`,
+        `react native`,
       ]}
     />
     <Hero />

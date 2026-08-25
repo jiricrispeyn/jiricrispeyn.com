@@ -10,10 +10,10 @@ const Social = props => {
   return (
     <StyledSocial>
       <StyledIcon
-        href="https://twitter.com/jiricrispeyn"
+        href="https://x.com/jiricrispeyn"
         target="blank"
         rel="noopener noreferrer"
-        brandColor="#1DA1F2"
+        brandColor="#000000"
       >
         <TwitterIcon size={20} />
       </StyledIcon>
