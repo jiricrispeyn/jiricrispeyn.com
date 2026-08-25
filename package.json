@@ -4,6 +4,9 @@
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
   "author": "Jiri Crispeyn <jiri.crispeyn@gmail.com>",
+  "engines": {
+    "node": ">=18.0.0 <26"
+  },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
