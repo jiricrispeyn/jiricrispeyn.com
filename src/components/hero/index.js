@@ -16,22 +16,13 @@ const Hero = () => {
         >
           @shopify
         </Anchor>
-        , where I work on Point of Sale, the mobile app that helps retail
-        merchants make commerce better, built with{" "}
-        <Anchor
-          href="//reactnative.dev/"
-          target="blank"
-          rel="noopener noreferrer"
-          activeColor="rgb(97, 218, 251)"
-        >
-          React Native
-        </Anchor>
-        . Previously{" "}
+        , where I work on Point of Sale, the React Native app that makes
+        commerce better for retail merchants. Previously{" "}
         <Anchor
           href="//rocketreach.co/aaqua-profile_b42ae115fe01bccd"
           target="blank"
           rel="noopener noreferrer"
-          activeColor="#01091b"
+          activeColor="#9206D3"
         >
           @aaqua
         </Anchor>,{" "}
