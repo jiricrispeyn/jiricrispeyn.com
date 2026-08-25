@@ -42,11 +42,11 @@ module.exports = {
         fonts: ['material icons', 'montserrat:700', 'source sans pro:400'],
       },
     },
-    {
+    process.env.GA_TRACKING_ID && {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: process.env.GA_TRACKING_ID,
       },
     },
-  ],
+  ].filter(Boolean),
 };

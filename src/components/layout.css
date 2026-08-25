@@ -3,6 +3,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   background-color: #CFDEE7;
+  background-image: linear-gradient(135deg, #e7f0f5 0%, #cfdee7 45%, #b7cde3 100%);
+  background-attachment: fixed;
 }
 body {
   margin: 0;
