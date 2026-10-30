@@ -12,13 +12,14 @@
   function currentTheme() {
     return (
       root.getAttribute("data-theme") ||
-      (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+      (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark")
     );
   }
 
+  // The button names the theme it switches to.
   function syncToggle() {
     var isDark = currentTheme() === "dark";
-    toggle.setAttribute("aria-pressed", String(isDark));
+    toggle.textContent = isDark ? "Light" : "Dark";
     toggle.setAttribute("aria-label", isDark ? "Switch to light theme" : "Switch to dark theme");
   }
 
